@@ -1,0 +1,22 @@
+Package: onfant.dataset
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9001
+Authors@R:  
+ c(person(given = "Anabelle", family = "Laurent", role = c("aut", "cre"), email = "alaurent@iastate.edu", comment = c(ORCID = "0000-0002-6154-0065")),
+     person("Fernando", "Miguez", email = "femiguez@iastate.edu", role = c("aut"), comment = c(ORCID = "0000-0002-4627-8329")))
+Description: This package read the files attached to the data paper "Late-season corn stalk nitrate measurements across the US Midwest from 2006 to 2018"
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Depends: R (>= 3.5.0)    
+Encoding: UTF-8
+Imports: 
+ dplyr,
+ readr,
+ magrittr,
+ tidyr,
+ stats,
+ stringr
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+repository: myRepo

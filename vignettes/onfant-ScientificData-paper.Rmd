@@ -1,0 +1,54 @@
+---
+title: "onfant: Read and Clean Files to Run ONFANT"
+author: "Anabelle Laurent and Fernando Miguez"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{onfant: Read and Clean Files to Run ONFANT}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+library(dplyr)
+library(onfant)
+```
+
+
+# Introduction
+
+The **onfant** is distributed as part of a peer-reviewed article that describes a dataset about late-season corn stalk nitrate measurements across the US Midwest from 2006 to 2018. 
+
+
+## Example
+
+We start by looking at the dataset. 
+
+```{r example}
+data(clean_merge)
+str(clean_merge)
+head(clean_merge)
+```
+
+
+## Export the dataset in csv format
+
+```{r export-csv}
+write.csv(clean_merge,"Path to export the DataFrame/FileName.csv", row.names = FALSE)
+
+```
+
+
+## Export the dataset in excel format
+
+```{r export-excel}
+install.packages("writexl")
+library(writexl)
+write_xlsx(clean_merge,"Path to export the DataFrame/FileName.xlsx")
+
+```
+
