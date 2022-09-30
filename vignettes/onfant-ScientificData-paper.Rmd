@@ -15,7 +15,7 @@ knitr::opts_chunk$set(
   comment = "#>"
 )
 library(dplyr)
-library(onfant)
+library(onfant.dataset)
 ```
 
 
@@ -29,16 +29,16 @@ The **onfant** is distributed as part of a peer-reviewed article that describes 
 We start by looking at the dataset. 
 
 ```{r example}
-data(clean_merge)
-str(clean_merge)
-head(clean_merge)
+data("stalk_nitrate_CSNT_dataset")
+str(stalk_nitrate_CSNT_dataset)
+head(stalk_nitrate_CSNT_dataset)
 ```
 
 
 ## Export the dataset in csv format
 
 ```{r export-csv}
-write.csv(clean_merge,"Path to export the DataFrame/FileName.csv", row.names = FALSE)
+write.csv(stalk_nitrate_CSNT_dataset,"Here include the path to export the DataFrame/FileName.csv", row.names = FALSE)
 
 ```
 
