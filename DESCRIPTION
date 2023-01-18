@@ -1,6 +1,6 @@
 Package: onfant.dataset
 Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9001
+Version: 0.0.0.9002
 Authors@R:  
  c(person(given = "Anabelle", family = "Laurent", role = c("aut", "cre"), email = "alaurent@iastate.edu", comment = c(ORCID = "0000-0002-6154-0065")),
      person("Fernando", "Miguez", email = "femiguez@iastate.edu", role = c("aut"), comment = c(ORCID = "0000-0002-4627-8329")))
