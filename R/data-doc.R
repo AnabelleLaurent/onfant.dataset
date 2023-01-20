@@ -29,3 +29,20 @@
 
 
 
+#' @title Weather data associated with the late-season corn stalk nitrate test (CSNT) measurements across the US Midwest from 2006 to 2018
+#' @format A data frame with 3900074 rows and 8 variables:
+#' \describe{
+#'   \item{DOY}{ - The day of the year.}
+#'   \item{Field_ID}{ - The unique identifier of a corn field with CSNT measurements.}
+#'   \item{Maximum_temperature}{ - Daily maximum air temperature in degrees Celsius.}
+#'   \item{Minimum_temperature}{ - Daily minimum air temperature in degrees Celsius.}
+#'   \item{Radiation}{ -  Incident shortwave radiation flux density in watts per square meter, taken as an average over the daylight period of the day.}
+#'   \item{Rainfall}{ - Daily total precipitation in millimeters per day.}
+#'   \item{State}{ - The state where the corresponding “Field_ID” was located.}
+#'   \item{Year}{ - The year of CSNT measurement.}
+#' }
+"weather_onfant_dataset"
+
+
+
+
