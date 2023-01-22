@@ -1,5 +1,5 @@
 ---
-title: "onfant: Read and Clean Files to Run ONFANT"
+title: "onfant.dataset: Late-season corn stalk nitrate test data from field surveys across the Midwest from 2006 to 2018."
 author: "Anabelle Laurent and Fernando Miguez"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
@@ -21,7 +21,9 @@ library(onfant.dataset)
 
 # Introduction
 
-The **onfant** is distributed as part of a peer-reviewed article that describes a dataset about late-season corn stalk nitrate measurements across the US Midwest from 2006 to 2018. 
+The **onfant.dataset** is distributed as part of a peer-reviewed article that describes a dataset about late-season corn stalk nitrate measurements across the US Midwest from 2006 to 2018. Two datasets are included:  
+- stalk_nitrate_CSNT_dataset that contains the corn stalk nitrate measurements and other variables.  See ?stalk_nitrate_CSNT_dataset for more information.  
+- weather_onfant that contains weather information for each field included in stalk_nitrate_CSNT_dataset. See ?weather_onfant for more information.  
 
 
 ## Example
@@ -32,6 +34,9 @@ We start by looking at the dataset.
 data("stalk_nitrate_CSNT_dataset")
 str(stalk_nitrate_CSNT_dataset)
 head(stalk_nitrate_CSNT_dataset)
+
+data("weather_onfant")
+head(weather_onfant)
 ```
 
 

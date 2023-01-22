@@ -13,7 +13,7 @@ A data frame with 32025 rows and 25 variables:
 \item{Field_ID}{ - The unique identifier of a corn field with CSNT measurements.}
 \item{GM_2_catego}{ - The corn N status into two N sufficiency categories: sufficient (including the “GM_4_category” marginal, optimal, excessive) and deficient otherwise.}
 \item{GM_4_catego}{ - The corn N status into four N sufficiency categories (marginal, deficient, optimal, excessive).}
-\item{GM_ppm}{ -The geometric means of stalk nitrate-N calculated from the three samples per field).}
+\item{GM_ppm}{ -The geometric means of stalk nitrate-N calculated from the three samples per field.}
 \item{Manure_application}{ - Indicates whether each entry received manure (labeled as “Yes”) or not (labeled as “No”).}
 \item{Manure_type}{ - The type of manure applied as organic nitrogen fertilizer such as poultry manure or beef manure, for example. If no manure was applied, the “Manure_type” is set to “No manure”.}
 \item{N_application_timing}{ - the N timing application.}
