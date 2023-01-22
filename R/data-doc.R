@@ -36,12 +36,12 @@
 #'   \item{Field_ID}{ - The unique identifier of a corn field with CSNT measurements.}
 #'   \item{Maximum_temperature}{ - Daily maximum air temperature in degrees Celsius.}
 #'   \item{Minimum_temperature}{ - Daily minimum air temperature in degrees Celsius.}
-#'   \item{Radiation}{ -  Incident shortwave radiation flux density in watts per square meter, taken as an average over the daylight period of the day.}
+#'   \item{Radiation}{ - Incident shortwave radiation flux density in watts per square meter, taken as an average over the daylight period of the day.}
 #'   \item{Rainfall}{ - Daily total precipitation in millimeters per day.}
 #'   \item{State}{ - The state where the corresponding “Field_ID” was located.}
 #'   \item{Year}{ - The year of CSNT measurement.}
 #' }
-"weather_onfant_dataset"
+"weather_onfant"
 
 
 
